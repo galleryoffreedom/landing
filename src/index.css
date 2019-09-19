@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "GraphikBold";
+  src: url("./fonts/GraphikBold.woff") format("woff"); /* Modern Browsers */
+  font-weight: Bold;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: "GraphikRegular", "Helvetica Neue", sans-serif;
@@ -17,6 +24,11 @@ h1,h2,h3,h4,h5,h6{
   color: #AFAFAF;
   font-weight: 400;
   margin: 0;
+}
+
+b{
+  font-family: "GraphikBold", "Helvetica Neue", sans-serif;
+  font-weight: bold;
 }
 
 code {

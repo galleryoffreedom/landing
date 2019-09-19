@@ -52,7 +52,7 @@ const HeroStyled = styled.div`
             }
 
             @media (max-width: 500px) {
-                font-size: 2rem;
+                font-size: 1.5rem;
                 line-height: 2.5rem;
             }
         }
@@ -88,11 +88,11 @@ const HeroStyled = styled.div`
             @media (max-width: 700px) {
                 align-items: flex-start;
                 justify-content: flex-start;
-                margin-top: 10rem;
+                margin-top: 9rem;
             }
 
             @media (max-width: 500px) {
-                margin-top: 8rem;
+                margin-top: 6rem;
             }
     
             .oculus-image{
@@ -113,7 +113,7 @@ const HeroStyled = styled.div`
                 }
     
                 @media (max-width: 500px) {
-                    margin-top: 1.675rem;
+                    margin-top: 1.5rem;
                     width: 13.75rem;
                     height: 1.625rem;
                 }
@@ -140,7 +140,7 @@ const HeroStyled = styled.div`
             }
 
             @media (max-width: 500px) {
-                margin: 8rem 0 10rem 0;
+                margin: 7rem 0 9rem 0;
             }
     
             .discord-image{
@@ -161,9 +161,9 @@ const HeroStyled = styled.div`
                 }
     
                 @media (max-width: 500px) {
-                    margin-top: 1.75rem;
-                    height: 2.4rem;
-                    width: 10rem;
+                    margin-top: 1.5rem;
+                    height: 2.16rem;
+                    width: 9rem;
                 }
             }
         }

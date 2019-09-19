@@ -59,7 +59,7 @@ const HeroStyled = styled.div`
     
         .hero-description{
             margin-top: 6.25rem;
-            max-width: 50rem;
+            max-width: 50.75rem;
 
             @media (max-width: 900px) {
                 margin-top: 5rem;
@@ -125,7 +125,7 @@ const HeroStyled = styled.div`
             flex-direction: column;
             justify-content: center;
             margin: 15.625rem 0 18.75rem 0;
-            max-width: 30rem;
+            max-width: 34rem;
             text-align: center;
 
             @media (max-width: 900px) {

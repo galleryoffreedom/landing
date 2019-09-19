@@ -61,6 +61,11 @@ const HeroStyled = styled.div`
             margin-top: 6.25rem;
             max-width: 50.75rem;
 
+            a{
+                color: #AFAFAF;
+                text-decoration: none;
+            }
+
             @media (max-width: 900px) {
                 margin-top: 5rem;
             }
@@ -176,7 +181,7 @@ const Hero = () => (
     <HeroStyled>
         <img className="hero-image" src={hero} />
         <div className="content-block">
-            <h2 className="hero-description">A small community of artists are custodians of a virtual space called <b>Gallery of Freedom</b>. We are experiementing with new ways to interact with and experience art.</h2>
+            <h2 className="hero-description">A community of artists are creating a virtual space called <a href="https://www.instagram.com/galleryoffreedom/"><b>Gallery of Freedom</b></a>. We are experimenting with new ways to interact with and experience VR art.</h2>
             <div className="coming-soon-holder">
                 <h2 className="coming-soon-text">coming soon too...</h2>
                 <img className="oculus-image" src={oculus} />

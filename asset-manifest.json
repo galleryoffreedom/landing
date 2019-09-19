@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing/static/css/main.f1000099.chunk.css",
+    "main.css": "/landing/static/css/main.b4b44843.chunk.css",
     "main.js": "/landing/static/js/main.ba600740.chunk.js",
     "main.js.map": "/landing/static/js/main.ba600740.chunk.js.map",
     "runtime~main.js": "/landing/static/js/runtime~main.97251619.js",
@@ -8,9 +8,9 @@
     "static/js/2.92fc5c93.chunk.js": "/landing/static/js/2.92fc5c93.chunk.js",
     "static/js/2.92fc5c93.chunk.js.map": "/landing/static/js/2.92fc5c93.chunk.js.map",
     "index.html": "/landing/index.html",
-    "precache-manifest.bde5f5b1396ff6616d91756c3c7ba4bb.js": "/landing/precache-manifest.bde5f5b1396ff6616d91756c3c7ba4bb.js",
+    "precache-manifest.6d6f724a0d9b092a23792ee7b9214969.js": "/landing/precache-manifest.6d6f724a0d9b092a23792ee7b9214969.js",
     "service-worker.js": "/landing/service-worker.js",
-    "static/css/main.f1000099.chunk.css.map": "/landing/static/css/main.f1000099.chunk.css.map",
+    "static/css/main.b4b44843.chunk.css.map": "/landing/static/css/main.b4b44843.chunk.css.map",
     "static/media/index.css": "/landing/static/media/GraphikRegular.e0154010.woff",
     "static/media/discord.svg": "/landing/static/media/discord.e1847c08.svg",
     "static/media/hero-background.png": "/landing/static/media/hero-background.12fb2c96.png",

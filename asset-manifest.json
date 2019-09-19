@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/landing/static/css/main.b4b44843.chunk.css",
-    "main.js": "/landing/static/js/main.9078d5d4.chunk.js",
-    "main.js.map": "/landing/static/js/main.9078d5d4.chunk.js.map",
-    "runtime~main.js": "/landing/static/js/runtime~main.97251619.js",
-    "runtime~main.js.map": "/landing/static/js/runtime~main.97251619.js.map",
-    "static/js/2.92fc5c93.chunk.js": "/landing/static/js/2.92fc5c93.chunk.js",
-    "static/js/2.92fc5c93.chunk.js.map": "/landing/static/js/2.92fc5c93.chunk.js.map",
-    "index.html": "/landing/index.html",
-    "precache-manifest.5799765bcc12262beabf27761b298cae.js": "/landing/precache-manifest.5799765bcc12262beabf27761b298cae.js",
-    "service-worker.js": "/landing/service-worker.js",
-    "static/css/main.b4b44843.chunk.css.map": "/landing/static/css/main.b4b44843.chunk.css.map",
-    "static/media/index.css": "/landing/static/media/GraphikRegular.e0154010.woff",
-    "static/media/discord.svg": "/landing/static/media/discord.e1847c08.svg",
-    "static/media/hero-background.png": "/landing/static/media/hero-background.12fb2c96.png",
-    "static/media/logo.svg": "/landing/static/media/logo.5d5d9eef.svg",
-    "static/media/oculus.svg": "/landing/static/media/oculus.92112462.svg"
+    "main.css": "/static/css/main.6c336dc6.chunk.css",
+    "main.js": "/static/js/main.eafaa4af.chunk.js",
+    "main.js.map": "/static/js/main.eafaa4af.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.787d8cc7.js",
+    "runtime~main.js.map": "/static/js/runtime~main.787d8cc7.js.map",
+    "static/js/2.33d4e2d4.chunk.js": "/static/js/2.33d4e2d4.chunk.js",
+    "static/js/2.33d4e2d4.chunk.js.map": "/static/js/2.33d4e2d4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0d47c4bb20d929215e52adacde817e01.js": "/precache-manifest.0d47c4bb20d929215e52adacde817e01.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6c336dc6.chunk.css.map": "/static/css/main.6c336dc6.chunk.css.map",
+    "static/media/index.css": "/static/media/GraphikRegular.e0154010.woff",
+    "static/media/discord.svg": "/static/media/discord.e1847c08.svg",
+    "static/media/hero-background.png": "/static/media/hero-background.12fb2c96.png",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
+    "static/media/oculus.svg": "/static/media/oculus.92112462.svg"
   }
 }

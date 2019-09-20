@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import Canvas from "./Canvas.js";
 
-const hero = require("./images/hero-background.png");
 const oculus = require("./images/oculus.svg");
 const discord = require("./images/discord.svg");
+const hero = require("./images/hero-background.png");
 
 const HeroStyled = styled.div`
     display: flex;
@@ -11,6 +12,35 @@ const HeroStyled = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
+
+    .canvas-hero{
+        display: block;
+        background-image: url(${hero});
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 0;
+        padding-top: 55.14%;
+        width: 100%;
+        position: relative;
+        .canvas-holder{
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            .canvas{
+                background: rgba(0,0,0,0) !important;
+                height: 100% !important;
+                width: 100% !important;
+                position: absolute;
+                canvas{
+                    height: 100% !important;
+                }
+            }
+        }
+    }
+    
 
     .hero-image{
         width: 100%;
@@ -179,7 +209,10 @@ const HeroStyled = styled.div`
 
 const Hero = () => (
     <HeroStyled>
-        <img className="hero-image" src={hero} />
+        <div className="canvas-hero">
+            <Canvas />
+        </div>
+
         <div className="content-block">
             <h2 className="hero-description">A community of artists are creating a virtual space called <a href="https://www.instagram.com/galleryoffreedom/" target="blank"><b>Gallery of Freedom</b></a>. We are experimenting with new ways to interact with and experience VR art.</h2>
             <div className="coming-soon-holder">

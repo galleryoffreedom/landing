@@ -181,14 +181,14 @@ const Hero = () => (
     <HeroStyled>
         <img className="hero-image" src={hero} />
         <div className="content-block">
-            <h2 className="hero-description">A community of artists are creating a virtual space called <a href="https://www.instagram.com/galleryoffreedom/"><b>Gallery of Freedom</b></a>. We are experimenting with new ways to interact with and experience VR art.</h2>
+            <h2 className="hero-description">A community of artists are creating a virtual space called <a href="https://www.instagram.com/galleryoffreedom/" target="blank"><b>Gallery of Freedom</b></a>. We are experimenting with new ways to interact with and experience VR art.</h2>
             <div className="coming-soon-holder">
                 <h2 className="coming-soon-text">coming soon too...</h2>
                 <img className="oculus-image" src={oculus} />
             </div>
             <div className="call-to-action">
                 <h2 className="cta-text">In the meantime, join our community</h2>
-                <a href="https://discord.gg/ad8wSEZ"><img className="discord-image" src={discord} /></a>
+                <a href="https://discord.gg/ad8wSEZ" target="blank"><img className="discord-image" src={discord} /></a>
             </div>
         </div>
     </HeroStyled>
